@@ -66,6 +66,7 @@ const Card = styled.div`
   border-radius: 2rem;
   overflow: hidden;
   position: rlative;
+
   img {
     border-radius: 2rem;
     position: absolute;
@@ -79,7 +80,7 @@ const Card = styled.div`
     z-index: 10;
     left: 50%;
     bottom: 0%;
-    transformation: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
     color: white;
     width: 100%;
     text-align: center;
@@ -93,7 +94,7 @@ const Card = styled.div`
 `;
 
 const Gradient = styled.div`
-  z-index: 5;
+  z-index: 3;
   position: absolute;
   width: 100%;
   height: 100%;
